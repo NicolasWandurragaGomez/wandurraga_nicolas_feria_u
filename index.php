@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Feria De Universidades</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-      <h1>Pagina Feria De Universidades</h1>    
-      <h2>Ingresar como:</h2>  
+<header>
+
+ <img src="img/logoferia.jpg" alt="" width="100%" height="250px">  
+
+</header>
 
 <!--Formulario de inicio de sesion -->
 
 <DOCTYPE html>
 <html lang="en">
-<head>
+<body>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <div class="registros">
+     <br>   
+     <hr> 
+     <h2>Ingresar como:</h2>        
+     <button class="btnregistros"><a href="loguearse_adm.php">Administrador</a></button>
+     <br>
+     <button class="btnregistros"><a href="registrar_departamento.php">Delegado</a></button>
+     <br>
+     <button class="btnregistros"><a href="registrar_apoyo.php">Apoyo</a></button>
+     <br>
+     <button class="btnregistros"><a href="registrar_guia.php">Guia</a></button>
 
-   
-    
-    <hr>
-    <a href="loguearse_adm.php">Administrador</a>
-    <hr>
-    <a href="registrar_departamento.php">Delegado</a>
-    <hr>
-    <a href="registrar_apoyo.php">Apoyo</a>
-    <hr>
-    <a href="registrar_guia.php">Guia</a>
+    </div>
 
 </body>
 </html>

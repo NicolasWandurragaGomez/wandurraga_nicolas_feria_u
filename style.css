@@ -1,0 +1,38 @@
+header{background-color: rgb(18, 3, 156);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btnregistros{
+    background-color: rgb(10, 21, 121);
+    height: 25px;
+    width: 110px;
+    text-decoration: none;
+    align-items: left;
+    text-align: center;
+
+}
+button{
+
+    background-color: rgb(26, 15, 121);
+    text-decoration: none;
+    text-align: center;
+
+}
+.registros{
+
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+    display: left;
+
+}
+a{
+    color: white;
+}
