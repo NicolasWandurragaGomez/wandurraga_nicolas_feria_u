@@ -1,38 +1,78 @@
-header{background-color: rgb(18, 3, 156);
-    color: white;
-    align-items: center;
-    justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap');
+
+header{
     text-align: center;
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding: 20px  ;
 }
 body{
+    max-width: 900px;   
+    margin: 0 auto;     
+    padding: 20px; 
     align-items: center;
     justify-content: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245,245,245);
 }
-.btnregistros{
+.button{
+    display: inline-block;
     background-color: rgb(10, 21, 121);
     height: 25px;
     width: 110px;
     text-decoration: none;
-    align-items: left;
     text-align: center;
 
 }
 button{
-
-    background-color: rgb(26, 15, 121);
+    padding: 4px 18px;                 
+    border-radius: 7px;   
+    color: white;
+    background-color: rgb(10, 21, 121);
     text-decoration: none;
     text-align: center;
+    gap: 10px;  
 
 }
-.registros{
+.botones{
 
-    align-items: left;
-    justify-content: left;
+    flex-wrap: wrap;
+    display: flex;
+    text-decoration: none;
     text-align: center;
-    display: left;
+    display: flex;
+    gap: 10px;  
+
 
 }
 a{
     color: white;
+}
+.registros{
+    text-align: center;
+
+}
+
+h1, h2 {
+    margin-bottom: 20px;  
+    color: rgb(10, 21, 121);
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+p {
+    text-align: justify;
+    margin: 10px 0;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:  black;
+    line-height: 1.6
+
 }

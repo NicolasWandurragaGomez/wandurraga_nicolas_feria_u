@@ -19,27 +19,39 @@
 <body>
     <h1>Página de consultas</h1>
     <hr>
-    <a href="consulta_acom.php">Consultar acompañante</a>
-    <hr>
-    <a href="consulta_adm.php">Consulta administrador</a>
-    <hr>
-    <a href="consulta_apo.php">Consulta apoyo</a>
-    <hr>
-    <a href="consulta_col.php">Consultar colegio</a>
-    <hr>
-    <a href="consulta_del.php">Consultar Delegado</a>
-    <hr>
-    <a href="consulta_doc.php">Consultar Docente</a>
-    <hr>
-    <a href="consulta_est.php">Consultar Estudiante</a>
-    <hr>
-    <a href="consulta_gui.php">Consultar Guia</a>
-    <hr>
-    <a href="consulta_rut.php">Consultar Ruta</a>
-    <hr>
-    <a href="consulta_uni.php">Consultar Universidad</a>
+    <br>
+    <button><a href="consulta_acom.php">Consultar acompañante</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_adm.php">Consulta administrador</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_apo.php">Consulta apoyo</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_col.php">Consultar colegio</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_del.php">Consultar Delegado</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_doc.php">Consultar Docente</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_est.php">Consultar Estudiante</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_gui.php">Consultar Guia</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_rut.php">Consultar Ruta</a></button>
+    <br>
+    <br>
+    <button><a href="consulta_uni.php">Consultar Universidad</a></button>
+    <br>
+    <br>
 
     <hr>
-    <a href="cerrar_sesion.php">cerrar_sesion</a>
+    <button><a href="cerrar_sesion.php">cerrar_sesion</a></button>
 <body>
 </html>
